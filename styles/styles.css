@@ -4,12 +4,13 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
 
-/* .container {
-    position: relative;
-    margin: 0, auto;
-} */
+.container {
+    max-width: 75rem;
+    padding-top: 1em;
+}
 
 nav {
     position: fixed;
@@ -20,21 +21,26 @@ nav {
 }
 
 .links {
+    float: right;
     font-size: larger;
     font-weight: 700;
     list-style: none;
-    text-align: right;
     margin: 0 auto;
 }
 
 .links li {
-    float: right;
-    margin: 0 0 0 1em;
+    display: inline-block;
+    margin: 0.75rem;
 }
 
-.links li a {
-    display: inline-block;
+.links li > a {
+    display: block;
     color: white;
-    text-align: center;
+    text-decoration: none;
+}
+
+.links li > a:hover {
+    color: green;
+    background-color: lightgreen;
     text-decoration: none;
 }
