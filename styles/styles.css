@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .container {
+    position: relative;
+    margin: 0, auto;
+} */
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3em;
+    background-color: darkgreen;
+}
+
+.links {
+    font-size: larger;
+    font-weight: 700;
+    list-style: none;
+    text-align: right;
+    margin: 0 auto;
+}
+
+.links li {
+    float: right;
+    margin: 0 0 0 1em;
+}
+
+.links li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
